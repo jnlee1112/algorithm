@@ -11,8 +11,6 @@ public class ArrayManipulation {
         long max = 0;
         
         for(int[] q: queries){
-            // int a = q[0]-1;
-            // int b = q[1]-1;
             int k = q[2];
             
             mani[q[0]] += k;
